@@ -42,12 +42,42 @@ footer {
     text-align: center;
     background-color: #334455;
     padding: 10px;
-}
-
-footer a {
     color: #f3f2ef;
 }
 
+footer a {
+    color:#f3f2ef;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#header-wraper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#my-picture {
+    padding: 5px;
+    width: 108px;
+    height: 108px;
+}
+
+#header-info {
+    flex: 1;
+    padding: 10px;
+}
+#job-title {
+    color: #334455;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#my-picture img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+h1 {
+    margin: 5px 0;
+}
 #motto {
     text-align: right;
      color: red ;
@@ -69,6 +99,11 @@ footer a {
     color: crimson;
     background-color: cyan; 
     font-weight: bold;
+}
+
+#skills li span {
+    color:#7777
+    ;
 }
 
 td {
@@ -96,3 +131,4 @@ td {
     color: #334455;
     background-color: #fff;
 }
+
