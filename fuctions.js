@@ -31,7 +31,7 @@ function listenMenuClicks() {
 
 listenMenuClicks();
 
-showPage("skills");
+//showPage("skills");
 
 let allSkills =  [];
 

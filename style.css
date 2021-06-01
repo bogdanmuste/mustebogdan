@@ -71,6 +71,10 @@ h1 {
     text-align: right;
      color: red ;
 }
+#exper {
+    text-align: center;
+    color: blue;
+}
 .page {
     background-color: #fff;
     box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
@@ -84,6 +88,31 @@ h1 {
     margin: 0;
 }
 
+.job {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    margin: 16px 0;
+    padding: 24px;
+    border-radius: 4px;
+}
+
+#work {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    margin: 16px 0;
+    padding: 24px;
+    border-radius: 4px;
+}
+#education {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    margin: 16px 0;
+    padding: 24px;
+    border-radius: 4px;
+}
 .favorite-skill {
     color: red;
     background-color: cyan; 
@@ -121,3 +150,8 @@ td {
     background-color: #fff;
 }
 
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
